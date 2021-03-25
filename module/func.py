@@ -8,7 +8,7 @@ import requests
 import twder  #匯率套件
 
 line_bot_api = LineBotApi(settings.LINE_CHANNEL_ACCESS_TOKEN)
-baseurl = 'https://3073304a6426.ngrok.io/static/'
+baseurl = 'https://ehappytestasis.herokuapp.com/static/'
 
 currencies = {'美金':'USD','港幣':'HKD','英鎊':'GBP','澳幣':'AUD',\
               '日圓':'JPY','歐元':'EUR','人民幣':'CNY' }  #幣別字典
